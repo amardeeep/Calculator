@@ -2,24 +2,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 .buttonOuter{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    flex: 1;
 }
 .divRow{
     display: flex;
     flex-direction: row;
-    align-items:end;  
+    align-items:center;  
     justify-content: space-around;  
+    flex: 1;
 }
 .buttons{
-    display: flex;
     flex: 1;
-    flex-direction: row;
-    justify-content: space-around;
+    display: flex;
     border:1px solid black;
     
 }
@@ -28,10 +29,4 @@
     flex-direction: column;
     align-items: center;
 }
-h1{
-    display: flex;
-    align-items: center;
-}
-*{
-    padding: 0.5em;
-}
+
