@@ -47,7 +47,7 @@ for(let i=0;i<arrayButtons.length;i++){
     button.setAttribute("id",arrayButtons[i]);
     button.classList.add("buttons")
     button.textContent=arrayButtons[i];
-    divButton.classList.add("buttons");
+    divButton.classList.add("buttonsdiv");
     divButton.appendChild(button);
     if(i<4){
         divRow1.appendChild(divButton);   
@@ -62,5 +62,7 @@ for(let i=0;i<arrayButtons.length;i++){
         divRow4.appendChild(divButton);
     }
 }
+//create function that will display number currently typed
+
 
 
